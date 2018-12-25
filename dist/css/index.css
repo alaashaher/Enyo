@@ -1,0 +1,96 @@
+body {
+  overflow-x: hidden;
+  background-image: url("../image/pageBG@1X.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-toggler, .work:hover, .work {
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+header {
+  font-size: 18px;
+  color: #fff;
+  margin-left: -8px;
+  margin-top: -8px;
+  height: 550px;
+  padding-top: 50px;
+}
+
+nav {
+  margin-left: 10%;
+}
+
+.header-body {
+  margin-top: 100px;
+}
+
+.navbar-nav {
+  margin-left: 30%;
+}
+
+.nav-item {
+  margin-left: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.nav-item .nav-link {
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+.nav-item:hover {
+  border-radius: 5px;
+}
+
+.active {
+  border-radius: 5px;
+}
+
+.nav-item .nav-link {
+  font-size: 12px;
+}
+
+.work {
+  margin-top: 50px;
+  padding: 1.5% 5%;
+  border: 0px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.work:hover {
+  color: #eb7d4b;
+}
+
+.navbar-toggler {
+  margin-left: 120%;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    z-index: 1000;
+    position: absolute;
+    width: 150px;
+    padding-left: 3%;
+    padding-right: 5%;
+    border-radius: 5px;
+    margin-left: 282px;
+  }
+
+  .nav-item:hover {
+    background-color: #fff;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
