@@ -20,7 +20,7 @@ gulp.task('sass', () => {
     .pipe(connect.reload())
 });
 gulp.task('pug', () => {
-    return gulp.src('Enyo-project/pug/*.pug')
+    return gulp.src('Enyo-project/pug/index.pug')
         .pipe(pug({
             pretty: true
         }))

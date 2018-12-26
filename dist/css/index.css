@@ -5,11 +5,19 @@ body {
   background-size: cover;
 }
 
-.navbar-toggler, .work:hover, .work {
+ul li {
+  list-style: none;
+}
+
+.navbar-toggler, .download:hover, .download {
   -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
+}
+
+#download h1 {
+  color: #25365d;
 }
 
 header {
@@ -43,34 +51,46 @@ nav {
   color: #fff !important;
 }
 
+.navbar-brand:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
 .nav-item .nav-link {
   color: #fff !important;
   font-size: 18px !important;
 }
 
-.nav-item:hover {
-  border-radius: 5px;
-}
-
-.active {
-  border-radius: 5px;
+.nav-item .nav-link:hover {
+  color: #25365d !important;
 }
 
 .nav-item .nav-link {
   font-size: 12px;
 }
 
-.work {
+.download {
   margin-top: 50px;
-  padding: 1.5% 5%;
-  border: 0px;
-  border-radius: 5px;
+  padding: 1.2% 3%;
+  border: 1px solid #25365d;
+  border-radius: 35px;
   outline: none;
   cursor: pointer;
+  background-color: #25365d;
+  color: #fff;
+}
+.download span {
+  font-weight: 400;
+}
+.download i {
+  padding-right: 20px;
 }
 
-.work:hover {
-  color: #eb7d4b;
+.download:hover {
+  color: #25365d;
+  background-color: #fff;
 }
 
 .navbar-toggler {
@@ -91,6 +111,77 @@ nav {
   .nav-item:hover {
     background-color: #fff;
   }
+}
+#download {
+  margin-top: 326px;
+  padding: 1% 6%;
+}
+#download p {
+  margin-top: 50px;
+  color: #5a5a5a;
+}
+
+.firstContainer {
+  margin-top: 30px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #415c83;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #ffd5e1;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ffd5e1;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #ffd5e1;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
 }
 
 /*# sourceMappingURL=index.css.map */

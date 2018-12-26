@@ -5,4 +5,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+ul li {
+  list-style: none;
+}
 @import './header.scss';
+@import './download.scss'
