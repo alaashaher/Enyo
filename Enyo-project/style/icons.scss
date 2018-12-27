@@ -1,0 +1,21 @@
+#icons {
+  background-color: rgb(247,249,251);
+  padding: 7% 7%;
+  margin-left: 2px;
+  margin-top: 50px;
+  .icom-item {
+    display: inline-block;
+    margin-top: 20px
+  }
+}
+.icon-image {
+  float: left;
+  padding-right: 20px;
+}
+
+.icon-descripation {
+  margin-left: 55px;
+  p{
+    font-size: 12px;
+  }
+}
