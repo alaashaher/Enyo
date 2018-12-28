@@ -206,5 +206,13 @@ nav {
 .icon-descripation p {
   font-size: 12px;
 }
+.icon-descripation h5:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.icons-items {
+  margin-left: 20px;
+}
 
 /*# sourceMappingURL=index.css.map */
