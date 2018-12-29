@@ -16,7 +16,7 @@ ul li {
   transition: all 0.7s ease-in-out;
 }
 
-#foooter, #plan, #download h1 {
+#foooter, #plan, #work, #download h1 {
   color: #25365d;
 }
 
@@ -225,6 +225,28 @@ h1:hover {
   margin-left: 20px;
 }
 
+#work {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#work .feature-img {
+  margin-top: 50px;
+}
+#work .feature-img span img {
+  width: 300px;
+}
+
+.feature {
+  margin-top: 50px;
+}
+.feature .f1 {
+  margin-left: 30%;
+}
+
+.feature p {
+  font-size: 15px;
+}
+
 #plan {
   background-color: #f7f9fb;
   margin-top: 100px;
@@ -285,7 +307,7 @@ h1:hover {
 }
 #foooter {
   margin-top: 150px;
-  padding-bottom: 250px;
+  padding-bottom: 450px;
 }
 
 /*# sourceMappingURL=index.css.map */
