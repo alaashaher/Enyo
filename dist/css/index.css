@@ -189,6 +189,11 @@ h1:hover {
   display: none;
 }
 
+.downloadImage img {
+  width: 120%;
+  margin-top: 10%;
+}
+
 #icons {
   background-color: #f7f9fb;
   padding: 7% 7%;
@@ -270,6 +275,14 @@ h1:hover {
   padding-right: 10px;
 }
 
+@media (max-width: 991px) {
+  .planItem {
+    margin-left: 20px !important;
+    padding: 50px !important;
+    width: 70%;
+    margin-top: 20px;
+  }
+}
 #foooter {
   margin-top: 150px;
   padding-bottom: 250px;
