@@ -45,6 +45,10 @@ nav {
   color: #fff !important;
   font-size: 18px !important;
 }
+h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 .nav-item .nav-link:hover {
   color: rgb(37,54,93) !important;
 }

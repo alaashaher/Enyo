@@ -1,0 +1,52 @@
+#plan {
+  background-color: rgb(247,249,251);
+  margin-top: 100px;
+  padding: 100px 0px;
+  margin-left: 6px;
+  @extend %mainPageColor;
+.plan-descripation {
+  .planItems {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .planItem {
+    background-color: #fff;
+    padding: 50px 0px;
+    margin-left: 53px;
+    -moz-box-shadow: 0px 1px 17px 24px #eaedf1;
+    -webkit-box-shadow: 0px 1px 17px 24px #eaedf1;
+    box-shadow: 0px 1px 17px 24px #eaedf1;
+  }
+  .planItem:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    cursor: pointer;
+  }
+  .planItemPrice {
+    padding-top: 20px;
+    padding-bottom: 20px;
+      strong {
+      font-size : 45px;
+    }
+    .thin {
+      font-weight: lighter;
+    }
+  }
+  .planFooter {
+    margin-top: 50px;
+    .questions{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .connect span {
+      margin-left: 50px;
+      margin-top: 20px;
+      img {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+}
