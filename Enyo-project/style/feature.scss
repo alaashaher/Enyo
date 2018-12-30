@@ -19,3 +19,10 @@
 .feature p {
   font-size: 15px
 }
+@media(max-width:991px) {
+  .feature-img {
+    span img {
+      width: 150px !important
+    }
+  }
+}

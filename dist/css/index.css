@@ -51,7 +51,7 @@ nav {
   color: #fff !important;
 }
 
-.navbar-brand:hover {
+.navbar-brand h3:hover {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -111,10 +111,19 @@ h1:hover {
     padding-right: 5%;
     border-radius: 5px;
     margin-left: 282px;
+    background-color: #fff;
   }
 
-  .nav-item:hover {
-    background-color: #fff;
+  .nav-item .nav-link {
+    color: #25365d !important;
+  }
+
+  .nav-item .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-toggler {
+    margin-left: 500%;
   }
 }
 #download {
@@ -194,6 +203,11 @@ h1:hover {
   margin-top: 10%;
 }
 
+@media (max-width: 991px) {
+  .downloadImage img {
+    width: 80%;
+  }
+}
 #icons {
   background-color: #f7f9fb;
   padding: 7% 7%;
@@ -247,6 +261,11 @@ h1:hover {
   font-size: 15px;
 }
 
+@media (max-width: 991px) {
+  .feature-img span img {
+    width: 150px !important;
+  }
+}
 #plan {
   background-color: #f7f9fb;
   margin-top: 100px;

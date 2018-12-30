@@ -74,3 +74,9 @@
   width: 120%;
   margin-top: 10%
 }
+
+@media (max-width:991px) {
+  .downloadImage img{
+    width: 80%
+  }
+}
